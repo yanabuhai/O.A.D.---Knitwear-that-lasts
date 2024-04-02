@@ -1,0 +1,221 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  color: #2d1e1e;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* -------------------------------------------------- */
+
+/* ----------------------header------------------------ */
+
+.header {
+  background-color: #6889a5;
+  color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 25px;
+}
+
+.header-logo-link {
+}
+.header-logo-image {
+  padding-left: 18px;
+}
+.header-people-list {
+  display: flex;
+  gap: 16px;
+}
+.header-people-item {
+}
+
+.header-people-link {
+  font-size: 32px;
+  line-height: 0.9;
+}
+
+.header-list {
+  display: flex;
+  gap: 16px;
+}
+
+.header-item {
+}
+
+.header-link {
+  font-size: 13px;
+  line-height: 1.52;
+  text-transform: uppercase;
+}
+
+.header-language-link {
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+.header-language-image {
+  padding-left: 24px;
+  padding-right: 35px;
+}
+
+.header-bag-link {
+}
+
+.header-bag-image {
+  padding-right: 27px;
+}
+
+/* -------------------------------------------------- */
+
+/* -----------------------header-profile------------------- */
+
+.profile-section {
+  background-color: #6889a5;
+}
+
+.profile-container {
+  display: flex;
+  color: #ebecdc;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.header-text-wrap {
+  padding: 63px 109px 310px 115px;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.52;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+  max-width: 376px;
+}
+
+.header-subtitle {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+  max-width: 247px;
+  padding-bottom: 30px;
+}
+
+.header-text {
+  line-height: 1.24;
+}
+
+.header-profile-image-wrap {
+}
+
+.header-profile-image {
+  width: 600px;
+  height: 750px;
+}
+
+/* -------------------------------------------------- */
+
+/* ------------------------knitwear-------------------------- */
+.knitwear-section {
+}
+
+.knitwear-title {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.knitwear-list {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.knitwear-item {
+}
+
+.knitwear-images {
+  margin: 0 auto;
+  display: block;
+}
+
+.knitwear-text-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.knitwear-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.knitwear-text {
+  line-height: 1.52;
+  text-transform: uppercase;
+}
+
+.knitwear-store-list {
+}
+
+.knitwear-store-item {
+  font-size: 13px;
+  line-height: 1.52;
+  text-transform: uppercase;
+}
+
+.knitwear-size-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.knitwear-size-item {
+  font-size: 13px;
+  line-height: 1.52;
+  text-transform: uppercase;
+  text-align: center;
+}
